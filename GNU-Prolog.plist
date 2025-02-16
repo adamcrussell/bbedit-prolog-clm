@@ -177,29 +177,189 @@
 		<string>halt</string>
 		<string>host_name</string>
 		<string>hostname_address</string>
+		<string>if</string>
+		<string>include</string>
 		<string>initialization</string>
+		<string>integer</string>
+		<string>is_absolute_file_name</string>
 		<string>is_list</string>
+		<string>is_relative_file_name</string>
+		<string>keysort</string>
+		<string>last</string>
+		<string>last_read_start_line_column</string>
+		<string>leash</string>
 		<string>length</string>
+		<string>line_count</string>
+		<string>line_position</string>
+		<string>list</string>
+		<string>list_or_partial_list</string>
 		<string>listing</string>
-		<string>make</string>
+		<string>load</string>
+		<string>lower_upper</string>
+		<string>make_directory</string>
 		<string>maplist</string>
+		<string>max_list</string>
 		<string>member</string>
+		<string>memberchk</string>
+		<string>min_list</string>
+		<string>msort</string>
+		<string>multifile</string>
+		<string>name</string>
+		<string>name_query_vars</string>
+		<string>name_singleton_vars</string>
+		<string>new_atom</string>
 		<string>nl</string>
+		<string>nodebug</string>
+		<string>non_fd_var</string>
+		<string>non_generic_var</string>
 		<string>nonvar</string>
-		<string>nth0</string>
-		<string>nth1</string>
+		<string>nospy</string>
+		<string>nospyall</string>
+		<string>notrace</string>
+		<string>nth</string>
+		<string>number</string>
+		<string>number_atom</string>
+		<string>number_chars</string>
+		<string>number_codes</string>
+		<string>numbervars</string>
+		<string>once</string>
+		<string>op</string>
+		<string>open</string>
+		<string>open_input_atom_stream</string>
+		<string>open_input_chars_stream</string>
+		<string>open_input_codes_stream</string>
+		<string>open_output_atom_stream</string>
+		<string>open_output_chars_stream</string>
+		<string>open_output_codes_stream</string>
+		<string>os_version</string>
+		<string>partial_list</string>
+		<string>peek_byte</string>
+		<string>peek_char</string>
+		<string>peek_code</string>
+		<string>permutation</string>
+		<string>phrase</string>
+		<string>popen</string>
+		<string>portray</string>
+		<string>portray_clause</string>
 		<string>prefix</string>
+		<string>print</string>
+		<string>print_to_atom</string>
+		<string>print_to_chars</string>
+		<string>print_to_codes</string>
+		<string>prolog_file_name</string>
+		<string>prolog_pid</string>
+		<string>public</string>
+		<string>put</string>
+		<string>put_byte</string>
+		<string>put_char</string>
+		<string>put_code</string>
+		<string>random</string>
+		<string>randomize</string>
 		<string>read</string>
+		<string>read_atom</string>
+		<string>read_from_atom</string>
+		<string>read_from_chars</string>
+		<string>read_from_codes</string>
+		<string>read_integer</string>
+		<string>read_number</string>
+		<string>read_pl_state_file</string>
+		<string>read_term</string>
+		<string>read_term_from_atom</string>
+		<string>read_term_from_chars</string>
+		<string>read_term_from_codes</string>
+		<string>real_time</string>
+		<string>remove_stream_mirror</string>
+		<string>rename_file</string>
 		<string>repeat</string>
 		<string>retract</string>
 		<string>retractall</string>
 		<string>reverse</string>
+		<string>see</string>
+		<string>seeing</string>
+		<string>seek</string>
+		<string>seen</string>
 		<string>select</string>
+		<string>send_signal</string>
+		<string>set_bip_name</string>
+		<string>set_input</string>
+		<string>set_linedit_prompt</string>
+		<string>set_output</string>
+		<string>set_prolog_flag</string>
+		<string>set_seed</string>
+		<string>set_stream_buffering</string>
+		<string>set_stream_eof_action</string>
+		<string>set_stream_line_column</string>
+		<string>set_stream_position</string>
+		<string>set_stream_type</string>
+		<string>setarg</string>
+		<string>setof</string>
+		<string>shell</string>
+		<string>skip</string>
+		<string>sleep</string>
+		<string>socket</string>
+		<string>socket_accept</string>
+		<string>socket_bind</string>
+		<string>socket_close</string>
+		<string>socket_connect</string>
+		<string>socket_listen</string>
 		<string>sort</string>
+		<string>spawn</string>
+		<string>spy</string>
+		<string>statistics</string>
+		<string>stop</string>
+		<string>stream_line_column</string>
+		<string>stream_position</string>
+		<string>stream_property</string>
+		<string>sub_atom</string>
+		<string>sublist</string>
+		<string>subsumes_term</string>
+		<string>subtract</string>
+		<string>succ</string>
+		<string>suffix</string>
+		<string>sum_list</string>
+		<string>system</string>
+		<string>system_time</string>
+		<string>tab</string>
+		<string>tell</string>
+		<string>telling</string>
+		<string>temporary_file</string>
+		<string>temporary_name</string>
+		<string>term_expansion</string>
+		<string>term_hash</string>
+		<string>term_ref</string>
+		<string>term_variables</string>
+		<string>throw</string>
+		<string>told</string>
+		<string>top_level</string>
+		<string>trace</string>
 		<string>true</string>
+		<string>unget_byte</string>
+		<string>unget_char</string>
+		<string>unget_code</string>
+		<string>unify_with_occurs_check</string>
+		<string>unlink</string>
+		<string>user_time</string>
 		<string>var</string>
+		<string>wait</string>
+		<string>wam_debug</string>
+		<string>working_directory</string>
 		<string>write</string>
-		<string>writeln</string>
+		<string>write_canonical</string>
+		<string>write_canonical_to_atom</string>
+		<string>write_canonical_to_chars</string>
+		<string>write_canonical_to_codes</string>
+		<string>write_pl_state_file</string>
+		<string>write_term</string>
+		<string>write_term_to_atom</string>
+		<string>write_term_to_chars</string>
+		<string>write_term_to_codes</string>
+		<string>write_to_atom</string>
+		<string>write_to_chars</string>
+		<string>write_to_codes</string>
+		<string>writeq</string>
+		<string>writeq_to_atom</string>
+		<string>writeq_to_chars</string>
+		<string>writeq_to_codes</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
@@ -210,6 +370,10 @@
 			<key>BBLMLanguageSuffix</key>
 			<string>.p</string>
 		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.pl</string>
+		</dict>		
 		<dict>
 			<key>BBLMLanguageSuffix</key>
 			<string>.pro</string>
